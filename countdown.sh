@@ -11,7 +11,6 @@ then
     echo $i
     sleep 1
   done'
-  
 else
   echo Include a positive integer as the first argument.
 fi
