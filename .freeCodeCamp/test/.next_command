@@ -226,3 +226,11 @@ help while
 ./countdown.sh 5
 git status -s
 git add .
+git commit -m 'countdown program done'
+git push
+git push new origin/
+git push new origin
+git remote -v
+git push new origin
+clear
+touch bingo.sh
