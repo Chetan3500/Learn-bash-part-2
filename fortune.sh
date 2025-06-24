@@ -17,11 +17,10 @@ GET_FORTUNE() {
   read QUESTION
 }
 
-GET_FORTUNE
 
-until [[ $QUESTION =~ \?$  ]]
+until [[ $QUESTION =~ \?$ ]]
 do
-  GET_FORTUNE
+  GET_FORTUNE again
 done
 
 echo ${RESPONSES[$N]}
