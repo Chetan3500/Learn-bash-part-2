@@ -234,3 +234,4 @@ git remote -v
 git push new origin
 clear
 touch bingo.sh
+chmod +x bingo.sh
