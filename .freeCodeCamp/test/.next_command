@@ -280,3 +280,4 @@ git add .
 git commit -m 'bingo program completed'
 ./fortune.sh
 ARR=("a" "b" "c")
+echo ${ARR[1]}
