@@ -224,3 +224,5 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 help while
 ./countdown.sh 5
+git status -s
+git add .
