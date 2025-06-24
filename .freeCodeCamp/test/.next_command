@@ -329,3 +329,4 @@ help until
 help [[ expression ]]
 help test
 ./fortune.sh
+help [[ expression ]]
