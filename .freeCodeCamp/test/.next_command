@@ -4,3 +4,7 @@ sh questionnaire.sh
 bash questionnaire.sh
 which bash
 __vsc_prompt_cmd_original
+./q
+./questionnaire
+./questionnaire.sh
+./questionnaire.sh
