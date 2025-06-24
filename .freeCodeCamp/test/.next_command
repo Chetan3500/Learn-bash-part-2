@@ -240,3 +240,6 @@ printenv
 echo $LANG
 declare -p
 echo $RANDOM
+./B
+./bingo.sh
+./bingo.sh
