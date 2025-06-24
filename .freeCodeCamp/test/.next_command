@@ -353,3 +353,4 @@ touch five.sh
 clear
 chmod +x five.sh
 ./five.sh
+clear
