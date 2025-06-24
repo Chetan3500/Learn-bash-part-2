@@ -16,7 +16,7 @@ GET_FORTUNE
 
 until [[ $QUESTION == test?  ]]
 do
-GET_FORTUNE
+  GET_FORTUNE
 done
 
 echo ${RESPONSES[$N]}
