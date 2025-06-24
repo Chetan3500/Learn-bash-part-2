@@ -347,3 +347,6 @@ echo $VAR
 ./fortune.sh
 ./fortune.sh
 git add .
+git commit -m "fortune program completed"
+clear
+touch five.sh
