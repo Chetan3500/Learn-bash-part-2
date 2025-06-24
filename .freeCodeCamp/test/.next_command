@@ -272,3 +272,6 @@ help let
 help if
 ./bingo.sh
 ./bingo.sh
+clear
+clear
+touch fortune.sh
