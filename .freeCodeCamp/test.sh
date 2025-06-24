@@ -1,28 +1,11 @@
 #!/bin/bash
-# Program to tell a persons fortune
 
-echo -e "\n~~ Fortune Teller ~~\n"
+# Program to run my other four programs
 
-RESPONSES=(Yes No "Maybe" "Outlook good" "Don't count on it" "Ask again later")
+./questionnaire.sh
 
-N=$(( RANDOM % 6 ))
+./countdown.sh a
 
-GET_FORTUNE() {
-  if [[ ! $1 ]]
-  then
-    echo Ask a yes or no question:
-  else
-    echo Try again. Make sure it ends with a question mark:
-  fi
-  read QUESTION
-}
+./bingo.sh
 
-GET_FORTUNE
-
-until [[ $QUESTION =~ \?$  ]]
-do
-  GET_FORTUNE
-done
-
-echo ${RESPONSES[$N]}
-GET_FORTUNE again
+./fortune.sh
