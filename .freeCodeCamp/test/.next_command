@@ -326,3 +326,5 @@ __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 ./fortune.sh
 help
 help until
+help [[ expression ]]
+help test
