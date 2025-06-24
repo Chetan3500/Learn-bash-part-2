@@ -278,3 +278,4 @@ touch fortune.sh
 chmod +x fortune.sh
 git add .
 git commit -m 'bingo program completed'
+./fortune.sh
