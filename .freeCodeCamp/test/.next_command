@@ -276,3 +276,4 @@ clear
 clear
 touch fortune.sh
 chmod +x fortune.sh
+git add .
