@@ -1,2 +1,3 @@
 echo hello bash
 touch questionnaire.sh
+sh questionnaire.sh
